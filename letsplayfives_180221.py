@@ -15,7 +15,7 @@ deck =['h2', 'h3', 'h4', 'h5','s2', 's3', 's4', 's5','c2', 'c3', 'c4', 'c5',]
 cardValues = [2,3,4,5,2,3,4,5,2,3,4,5]
 
 '''
-
+#this deck is for testing
 global deck
 
 deck = ['h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'h8', 'h9', 'hT', 'hJ', 'hQ', 'hK', 'hA',
