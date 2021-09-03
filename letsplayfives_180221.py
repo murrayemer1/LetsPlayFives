@@ -51,7 +51,7 @@ class player:
     def refreshHand(self):  #refresh player's hand (send player's current hand to email of player)
         #email setitngs
         port = 465  # For SSL
-        password = "ka4Thaen" #input("Type your password and press enter: ")
+        password = input("Type your password and press enter: ")
         sender_email = "letsplayfives@gmail.com"
         #receiver_email = "murrayemer1@gmail.com"
 
@@ -130,7 +130,7 @@ while playeremail != ('done', 'Done')
 
 """
 #hardcoded
-playeremails = ["murrayemer1@gmail.com"]#, 'aconsidi@tcd.ie', 'adaly1@tcd.ie', 'smithc10@tcd.ie', 'dowdsh@tcd.ie']#, 'aconsidi@tcd.ie']
+playeremails = #["email1@mail.com","email2@mail.com","email3@mail.com","email4@mail.com"]# insert player's emails here
 for playeremail in playeremails:
     players.append(player(playeremail))
 
