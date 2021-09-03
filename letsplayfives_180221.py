@@ -52,8 +52,7 @@ class player:
         #email setitngs
         port = 465  # For SSL
         password = input("Type your password and press enter: ")
-        sender_email = "letsplayfives@gmail.com"
-        #receiver_email = "murrayemer1@gmail.com"
+        sender_email = "letsplayfives@gmail.com"        
 
         message = MIMEMultipart("alternative")
         message["Subject"] = "Your Hand"
